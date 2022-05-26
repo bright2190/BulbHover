@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+div h1{
+    color: rgb(63,42,11);
+    text-align: center;
+}
+.bulb{
+    background: url("./bulb_off.jpg");
+    
+    background-repeat: no-repeat;
+    width: 313px;
+    height: 496px;
+    margin: 0px auto;
+}
+.bulb:hover{
+    background: url("./bulb_on.jpg");
+    background-repeat: no-repeat;
+    
+}
